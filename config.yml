@@ -1,0 +1,13 @@
+
+default: &default
+  # adapter: postgresql
+  # encoding: unicode
+  pool: 5
+  database: eran_site_production
+  url: postgres://sivkcbjyorluph:74a42eca469e620a4d914809335c7e2ae7f7fe9c97ba0a898d13b06d9fa18059@ec2-23-23-195-205.compute-1.amazonaws.com:5432/d9b6g5ts278v5v
+
+development:
+  <<: *default
+
+
+
